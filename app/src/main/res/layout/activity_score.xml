@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FlashCardActivity">
+    tools:context=".ScoreActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
@@ -30,12 +30,12 @@
 
         <TextView
             android:id="@+id/tvFlashCard"
-            android:layout_width="365dp"
-            android:layout_height="51dp"
+            android:layout_width="369dp"
+            android:layout_height="46dp"
             android:layout_marginTop="100dp"
             android:background="#EFC487"
             android:gravity="center"
-            android:text="𝔗𝔥𝔢 𝔉𝔩𝔞𝔰𝔥 ℭ𝔞𝔯𝔡 𝔔𝔲𝔦𝔷 "
+            android:text="𝔉𝔦𝔫𝔞𝔩 𝔖𝔠𝔬𝔯𝔢 "
             android:textSize="34sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -43,69 +43,40 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/tvQuestion"
-            android:layout_width="407dp"
-            android:layout_height="73dp"
-            android:layout_marginTop="96dp"
-            android:background="#63948F"
-            android:text="Question: "
-            android:textSize="24sp"
-            android:textStyle="bold"
+            android:id="@+id/tvScore"
+            android:layout_width="405dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="200dp"
+            android:background="#639592"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvFlashCard" />
 
         <Button
-            android:id="@+id/btnNext"
+            android:id="@+id/btnReview"
             android:layout_width="195dp"
             android:layout_height="52dp"
-            android:layout_marginTop="150dp"
-            android:backgroundTint="#78393F"
-            android:text="ℕ𝕖𝕩𝕥"
+            android:layout_marginTop="210dp"
+            android:backgroundTint="#906729"
+            android:text="ℝ𝕖𝕧𝕚𝕖𝕨"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
-
-        <RadioGroup
-            android:id="@+id/radioGroup"
-            android:layout_width="408dp"
-            android:layout_height="101dp"
-            android:layout_marginTop="70dp"
-            android:background="#A4BCBA"
-            android:foregroundGravity="center"
-            android:gravity="center"
-            app:layout_constraintEnd_toEndOf="@+id/imageView2"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvQuestion">
-
-            <RadioButton
-                android:id="@+id/rbtnTrue"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="True"
-                android:textSize="20sp" />
-
-            <RadioButton
-                android:id="@+id/rbtnFalse"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="False"
-                android:textSize="20sp" />
-        </RadioGroup>
+            app:layout_constraintTop_toBottomOf="@+id/tvScore" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/imageView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="100dp"
             android:layout_marginBottom="10dp"
-            app:layout_constraintBottom_toBottomOf="@+id/btnNext"
-            app:layout_constraintEnd_toEndOf="@+id/btnNext"
-            app:layout_constraintStart_toStartOf="@+id/btnNext"
-            app:srcCompat="@android:drawable/ic_menu_set_as" />
+            app:layout_constraintBottom_toBottomOf="@+id/btnReview"
+            app:layout_constraintEnd_toEndOf="@+id/btnReview"
+            app:layout_constraintStart_toStartOf="@+id/btnReview"
+            app:srcCompat="@android:drawable/ic_menu_search" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

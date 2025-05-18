@@ -5,6 +5,11 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.widget.EditText
+import android.widget.Button
+import android.content.Intent
+import android.util.Log
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +20,30 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+        // code end here
+
+        val userName = findViewById<EditText>(R.id.edtUserName)
+        val next = findViewById<Button>(R.id.btnNext)
+
+        next.setOnClickListener {
+            //user name
+            val userName = userName.text.toString()
+            // If the userName is empty
+            if (userName.isNotEmpty()) {
+
+                // To next Activity
+                val intent = Intent(this, InstructionsActivity::class.java)
+                intent.putExtra("UserName", userName)
+                //now added a Log to check the userName
+                Log.d("userName", userName)
+
+                startActivity(intent)
+                finish()
+            } else{
+                Toast.makeText(this, "Please enter your UserName in the space provided", Toast.LENGTH_SHORT).show()
+            }
+
         }
     }
 }

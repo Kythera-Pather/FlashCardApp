@@ -8,8 +8,8 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,47 +17,48 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="436dp"
-            android:layout_height="742dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.538"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/img_1" />
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="364dp"
-            android:layout_height="33dp"
-            android:layout_marginTop="70dp"
+            android:id="@+id/tvFlashCard"
+            android:layout_width="387dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="100dp"
             android:background="#EFC487"
-            android:text="Welcome to the Flash Card App"
-            android:textSize="24sp"
+            android:text="𝔚𝔢𝔩𝔠𝔬𝔪𝔢 𝔱𝔬 𝔱𝔥𝔢 𝔉𝔩𝔞𝔰𝔥 ℭ𝔞𝔯𝔡 𝔄𝔭𝔭"
+            android:textSize="34sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editTextText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:id="@+id/edtUserName"
+            android:layout_width="241dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="100dp"
             android:ems="10"
             android:hint="Enter UserName"
             android:inputType="text"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+            app:layout_constraintTop_toBottomOf="@+id/tvIntroduction" />
 
         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:id="@+id/tvIntroduction"
+            android:layout_width="410dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="100dp"
             android:background="#CCB799"
             android:gravity="center"
             android:text="The Flash Card App is here to help you study for your history exam and test your Knowledge"
@@ -65,18 +66,29 @@
             android:textStyle="bold|italic"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/tvFlashCard" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnNext"
             android:layout_width="195dp"
             android:layout_height="52dp"
-            android:layout_marginTop="300dp"
+            android:layout_marginTop="150dp"
             android:backgroundTint="#538A85"
-            android:text="Next"
+            android:text="ℕ𝕖𝕩𝕥"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+            app:layout_constraintTop_toBottomOf="@+id/edtUserName" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="38dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btnNext"
+            app:layout_constraintEnd_toEndOf="@+id/btnNext"
+            app:layout_constraintStart_toStartOf="@+id/btnNext"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
