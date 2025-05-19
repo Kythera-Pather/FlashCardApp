@@ -14,7 +14,7 @@ Whether you're preparing for a test or simply love trivia, this app makes learni
 ---
 
 
--Key Features
+## Key Features
 
 1.	Name Personalization: The app greets users by name throughout the quiz and score screen for a more engaging experience.
 2.	Instructions Screen: Clear and concise guidance before the quiz begins.
@@ -26,8 +26,8 @@ Whether you're preparing for a test or simply love trivia, this app makes learni
 
 ---
 
--File & Code Structure
--Activities
+## File & Code Structure
+### Activities
 
 1.	MainActivity.kt – Handles name input and passes it forward.
 2.	InstructionsActivity.kt – Displays instructions before the quiz.
@@ -37,7 +37,7 @@ Whether you're preparing for a test or simply love trivia, this app makes learni
 
 ---
 
--Layouts
+## Layouts
 1.	activity_main.xml – Name input field and Next button.
 2.	activity_instructions.xml – Simple instruction text and Start button.
 3.	activity_flash_card.xml – Quiz question, True/False radio buttons, Submit button.
@@ -47,7 +47,7 @@ Whether you're preparing for a test or simply love trivia, this app makes learni
 
 ---
 
--Technologies Used
+## Technologies Used
 
 •	IDE: Android Studio
 
@@ -61,7 +61,7 @@ Whether you're preparing for a test or simply love trivia, this app makes learni
 
 
 
--Technologies Used
+### Technologies Used
 Technology       -             	Purpose
 
 Android Studio	    -            Main development environment
@@ -85,7 +85,7 @@ Logcat (Log.d)             -    	Debugging and development tracing
 
 ---
 
--Installation
+## Installation
 1.	Download the project or clone this repository.
 2.	Open the project in Android Studio. -Start Android Studio. -Select "Open an existing Android Studio project"" -Go to the directory of the cloned repository and choose either the build.gradle.kts (or build.gradle) file or the root folder of the project.
 3.	Grade of Sync: Upon opening the project, Android Studio will probably ask you to sync the Gradle files. Select "Sync Now". For this step, make sure you have a steady internet connection.
@@ -95,7 +95,7 @@ Logcat (Log.d)             -    	Debugging and development tracing
 
 ---
 
--How It Works:
+## How It Works:
 1.	The question and options are displayed one at a time.
 2.	The app validates whether a selection was made.
 3.	Compares the user’s answer to the correct one.
@@ -108,7 +108,7 @@ o	Provides a Review button to go through answers.
 
 ---
 
--How to Use the App
+## How to Use the App
 1.	Launch the app.
 2.	There is welcome screen where the user enters your username and click Next.
 3.	There is an instruction to show the users how to use the Flashcard App, then press Start.
@@ -119,7 +119,7 @@ o	Provides a Review button to go through answers.
    
 ---
 
--Quiz Logic
+## Quiz Logic
 
 The app uses parallel arrays to manage the flow of questions, user answers, and the scoring system.
 Some of the arrays user: 
@@ -181,7 +181,7 @@ Each time the user selects an answer and clicks Submit:
 
 ---
 
--Why We Use Logs
+#3 Why We Use Logs
 1.	Logs (e.g., Log.d("userName", userName.toString())) are used to:
 2.	Debug application logic.
 3.	Track variable values (like username or selected answers).
@@ -192,16 +192,15 @@ Logs are not shown to the user but are extremely useful in the Logcat console of
 
 ---
 
--GitHub and Version Control
+## GitHub and Version Control
 GitHub is used for:
 1.	Storing the source code online
 2.	Collaborating with team members
 3.	Tracking changes using commits
 4.	Managing issues and improvement suggestions
 
----
 
--Why commit and push?
+### Why commit and push?
 1.	Saves your work safely online
 2.	Keeps a history of every update
 3.	Makes collaboration easier
@@ -209,7 +208,7 @@ GitHub is used for:
 
 ---
 
--Potential Improvements
+## Potential Improvements
 1.	Add more question categories (e.g., Science, Geography)
 2.	Add sound effects for correct/incorrect answers
 3.	Save user scores to local database or Firebase
