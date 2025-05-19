@@ -239,8 +239,43 @@ GitHub is used for:
 ![image](https://github.com/user-attachments/assets/3701f80c-ec07-4ddc-bb6f-573fb6019379)
 ![image](https://github.com/user-attachments/assets/911823ff-b7b5-447d-b2df-9bada7a28051)
 
-###Code
+### Code
 ![image](https://github.com/user-attachments/assets/8e413d89-53d5-4285-9254-f5fbf2e0a0aa)
 
+---
 
+### Flash Card Quiz Screen
+![image](https://github.com/user-attachments/assets/e0369bfd-2494-430e-b601-cf56981f4919)
+![image](https://github.com/user-attachments/assets/d7b92d55-48dc-487a-8faf-7ad64c0cfde1)
+![image](https://github.com/user-attachments/assets/3d8a8d16-9f00-4524-8da5-76cdc60a6cdf)
+![image](https://github.com/user-attachments/assets/c8da62ef-62f8-4e67-8adc-9b54edc7f870)
+![image](https://github.com/user-attachments/assets/b40acdee-7fe7-4ca7-b6d3-6f3e68fdc8e9)
+
+### Code
+![image](https://github.com/user-attachments/assets/845c4818-f50c-4219-853f-e4ec8563b625)
+![image](https://github.com/user-attachments/assets/d9513a0b-1df3-42ea-ae7b-9283debb08cd)
+![image](https://github.com/user-attachments/assets/98a6283d-e428-417c-a857-24463619e16a)
+![image](https://github.com/user-attachments/assets/f4e9b0b1-dc61-4338-86d7-ba9b89319515)
+
+---
+### Scoring Screen
+![image](https://github.com/user-attachments/assets/54c964aa-1e5c-41db-8368-4f09e80de86c)
+![image](https://github.com/user-attachments/assets/4324f1bd-98fe-4ad4-b76b-d6485484cfaf)
+![image](https://github.com/user-attachments/assets/8998710a-8bf8-494a-a500-050c21558371)
+![image](https://github.com/user-attachments/assets/9fb44bc1-d5f1-497e-80c4-6fabbd171f5a)
+
+---
+### Code
+![image](https://github.com/user-attachments/assets/ba227ecd-8e4a-4cb0-ac0e-77ca9609c5ac)
+![image](https://github.com/user-attachments/assets/dbb25575-7da7-4784-8fd6-a5e46bbba9f3)
+
+---
+### Review Screen
+![image](https://github.com/user-attachments/assets/562f2581-898d-4c64-8b86-e3eb48e62d2f)
+![image](https://github.com/user-attachments/assets/e00d960f-549e-4bf5-b915-a42057524891)
+![image](https://github.com/user-attachments/assets/34ed008b-a5fb-47f5-9fde-46a475924490)
+![image](https://github.com/user-attachments/assets/238d0260-b6f0-46c5-94ab-9005a729d8bc)
+
+---
+### Code
 
