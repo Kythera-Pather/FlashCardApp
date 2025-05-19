@@ -1,5 +1,8 @@
 # Flash Card App
-The Flashcard Quiz App is an interactive Android application built in Android Studio using Kotlin. It serves as an educational and self-assessment tool that allows users to test their knowledge using True/False flashcards focused on historical facts. This app provides:
+The Flashcard Quiz App is an interactive Android application built in Android Studio using Kotlin. This app is designed as a learning and self-assessment tool that helps users test their knowledge through True/False flashcards on historical facts. The quiz is user-friendly, personalized, and includes features such as a score tracker, feedback system, and a review screen that allows users to reflect on their performance.
+
+Whether you're studying for a history test or just want to challenge your general knowledge, this app provides a fun and educational experience and helps the user learn more about history while testing them on their knowledge.
+
 
 1 .A clean, multi-screen interface
 
@@ -214,3 +217,30 @@ GitHub is used for:
 3.	Save user scores to local database or Firebase
 4.	Include dark mode support
 5.	Add screenshots for better documentation
+
+---
+
+## Screenshot of the App and Codes
+### Welcome Screen
+![image](https://github.com/user-attachments/assets/df65481f-c27a-4583-9761-4d16752e287e)
+![image](https://github.com/user-attachments/assets/80479234-1f16-4926-8857-1b1d860b510e)
+![image](https://github.com/user-attachments/assets/4e40ef07-160a-4a91-a772-fcfc27546b9e)
+![image](https://github.com/user-attachments/assets/86ff0b26-961b-41ea-87cb-80c9431b060c)
+
+### Code
+![image](https://github.com/user-attachments/assets/a3c86861-3633-4810-800b-0181cbcd6048)
+![image](https://github.com/user-attachments/assets/18127132-15ad-4df1-8703-c067f5d297d3)
+
+---
+### Instructions Screen
+![image](https://github.com/user-attachments/assets/6c2a48de-c829-40d5-80ee-f82ab1e1b53d)
+![image](https://github.com/user-attachments/assets/d205646e-bfad-4d46-a92a-6d41c5f68711)
+![image](https://github.com/user-attachments/assets/f21369e4-2cb2-4964-be7d-f8fc234d3f8e)
+![image](https://github.com/user-attachments/assets/3701f80c-ec07-4ddc-bb6f-573fb6019379)
+![image](https://github.com/user-attachments/assets/911823ff-b7b5-447d-b2df-9bada7a28051)
+
+###Code
+![image](https://github.com/user-attachments/assets/8e413d89-53d5-4285-9254-f5fbf2e0a0aa)
+
+
+
