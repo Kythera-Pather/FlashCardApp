@@ -20,6 +20,8 @@ Key Features
 •	Multi-Screen Navigation: Clean separation of UI across different screens for input, quiz, score, and review.
 
 
+
+
 File & Code Structure
 Activities
 •	MainActivity.kt – Handles name input and passes it forward.
@@ -31,6 +33,8 @@ Activities
 •	ScoreActivity.kt – Displays the score and personalized feedback.
 
 •	ReviewActivity.kt – Shows a list of all questions, user answers, and correct answers.
+
+
 
 
 
