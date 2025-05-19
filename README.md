@@ -1,5 +1,5 @@
 # Flash Card App
-The Flashcard Quiz App is an interactive Android application built in Android Studio using Kotlin. This app is designed as a learning and self-assessment tool that helps users test their knowledge through True/False flashcards on historical facts. The quiz is user-friendly, personalized, and includes features such as a score tracker, feedback system, and a review screen that allows users to reflect on their performance.
+The Flashcard Quiz App is an interactive Android application built in Android Studio using Kotlin. This app is designed as a learning and self-assessment tool that helps users test their knowledge through True/False flashcards on historical facts and to test how must they know and learn from their mistakes . The quiz is user-friendly, personalized, and includes features such as a welcome page, score tracker, feedback system, instructions on how to use the App and a review screen that allows users to reflect on their performance.
 
 Whether you're studying for a history test or just want to challenge your general knowledge, this app provides a fun and educational experience and helps the user learn more about history while testing them on their knowledge.
 
@@ -197,11 +197,23 @@ Logs are not shown to the user but are extremely useful in the Logcat console of
 
 ## GitHub and Version Control
 GitHub is used for:
+
+GitHub is an online platform used to store, manage, and collaborate on code projects using version control (Git). It helps keep track of changes to code over time and allows multiple people to work on the same project without losing progress.
+
+
 1.	Storing the source code online
 2.	Collaborating with team members
 3.	Tracking changes using commits
 4.	Managing issues and improvement suggestions
 
+## GitHub Actions (CI/CD)
+GitHub Actions is a tool built into GitHub that allows you to automate tasks like building, testing, or deploying your app every time you push code to your repository.
+
+In this project:
+
+GitHub Actions automatically builds your Android app using Gradle every time you push updates to the master branch.
+
+This ensures your code is always working and up-to-date, helping catch errors early.
 
 ### Why commit and push?
 1.	Saves your work safely online
