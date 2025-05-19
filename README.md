@@ -195,25 +195,23 @@ Logs are not shown to the user but are extremely useful in the Logcat console of
 
 
 GitHub and Version Control
-
 GitHub is used for:
-
-•	Storing the source code online
-
-•	Collaborating with team members
-
-•	Tracking changes using commits
-
-•	Managing issues and improvement suggestions
+1.	Storing the source code online
+2.	Collaborating with team members
+3.	Tracking changes using commits
+4.	Managing issues and improvement suggestions
 
 
 Why commit and push?
+1.	Saves your work safely online
+2.	Keeps a history of every update
+3.	Makes collaboration easier
+4.	Helps in testing different versions
 
-•	Saves your work safely online
 
-•	Keeps a history of every update
-
-•	Makes collaboration easier
-
-•	Helps in testing different versions
-
+Potential Improvements
+1.	Add more question categories (e.g., Science, Geography)
+2.	Add sound effects for correct/incorrect answers
+3.	Save user scores to local database or Firebase
+4.	Include dark mode support
+5.	Add screenshots for better documentation
