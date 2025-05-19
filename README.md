@@ -4,7 +4,7 @@ The Flashcard Quiz App is an interactive Android application built in Android St
 Whether you're studying for a history test or just want to challenge your general knowledge, this app provides a fun and educational experience and helps the user learn more about history while testing them on their knowledge.
 
 
-Key Features
+-Key Features
 
 1.	Name Personalization: The app greets users by name throughout the quiz and score screen for a more engaging experience.
 2.	Instructions Screen: Clear and concise guidance before the quiz begins.
@@ -16,7 +16,7 @@ Key Features
 
 
 
-File & Code Structure
+-File & Code Structure
 
 Activities
 
@@ -28,7 +28,7 @@ Activities
 
 
 
-Layouts
+-Layouts
 1.	activity_main.xml – Name input field and Next button.
 2.	activity_instructions.xml – Simple instruction text and Start button.
 3.	activity_flash_card.xml – Quiz question, True/False radio buttons, Submit button.
@@ -39,6 +39,7 @@ Layouts
 
 
 Technologies Used
+
 •	IDE: Android Studio
 
 •	Language: Kotlin
@@ -106,6 +107,7 @@ How to Use the App
    
 
 Quiz Logic
+
 The app uses parallel arrays to manage the flow of questions, user answers, and the scoring system.
 Some of the arrays user: 
 
