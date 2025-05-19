@@ -15,7 +15,6 @@ Key Features
 
 
 
-
 File & Code Structure
 Activities
 •	MainActivity.kt – Handles name input and passes it forward.
