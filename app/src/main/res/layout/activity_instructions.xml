@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="230dp"
             android:background="#E7BF85"
-            android:text="𝔦𝔫𝔱𝔯𝔬𝔡𝔲𝔠𝔱𝔦𝔬𝔫"
+            android:text="ℑ𝔫𝔰𝔱𝔯𝔲𝔠𝔱𝔦𝔬𝔫𝔰"
             android:textSize="34sp"
             android:textStyle="bold|italic"
             app:layout_constraintEnd_toEndOf="parent"
