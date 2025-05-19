@@ -1,7 +1,17 @@
-Overview of Project
-The Flashcard Quiz App is an interactive Android application built in Android Studio using Kotlin. This app is designed as a learning and self-assessment tool that helps users test their knowledge through True/False flashcards on historical facts. The quiz is user-friendly, personalized, and includes features such as a score tracker, feedback system, and a review screen that allows users to reflect on their performance.
+#Flash Card App
+The Flashcard Quiz App is an interactive Android application built in Android Studio using Kotlin. It serves as an educational and self-assessment tool that allows users to test their knowledge using True/False flashcards focused on historical facts. This app provides:
 
-Whether you're studying for a history test or just want to challenge your general knowledge, this app provides a fun and educational experience and helps the user learn more about history while testing them on their knowledge.
+1 .A clean, multi-screen interface
+
+2. Personalized user interaction
+
+3. Instant feedback and score tracking
+
+4. A review feature for reflection and learning
+
+Whether you're preparing for a test or simply love trivia, this app makes learning fun and effective.
+
+---
 
 
 -Key Features
@@ -14,7 +24,7 @@ Whether you're studying for a history test or just want to challenge your genera
 6.	Review Section: Allows users to view all questions, their responses, and the correct answers in a clean, scrollable layout.
 7.	Multi-Screen Navigation: Clean separation of UI across different screens for input, quiz, score, and review.  
 
-////
+---
 
 -File & Code Structure
 -Activities
@@ -25,7 +35,7 @@ Whether you're studying for a history test or just want to challenge your genera
 4.	ScoreActivity.kt – Displays the score and personalized feedback.
 5.	ReviewActivity.kt – Shows a list of all questions, user answers, and correct answers.
 
-///
+---
 
 -Layouts
 1.	activity_main.xml – Name input field and Next button.
@@ -35,7 +45,7 @@ Whether you're studying for a history test or just want to challenge your genera
 5.	activity_review.xml – ScrollView list of questions and answers.
 
 
-///
+---
 
 -Technologies Used
 
@@ -73,7 +83,7 @@ ConstraintLayout, LinearLayout	-UI structuring
 Logcat (Log.d)             -    	Debugging and development tracing
 
 
-///
+---
 
 -Installation
 1.	Download the project or clone this repository.
@@ -83,7 +93,7 @@ Logcat (Log.d)             -    	Debugging and development tracing
 5.	To test, connect an Android device or emulator. -Open the application: * Use an Android emulator or connect an Android device to your PC. Choose your device or emulator in Android Studio using the device dropdown in the
 
 
-///
+---
 
 -How It Works:
 1.	The question and options are displayed one at a time.
@@ -96,7 +106,7 @@ o	Navigates to the Score screen.
 o	Displays a message like "Well done, Sam!" or "Can do better, Sam."
 o	Provides a Review button to go through answers.
 
-///
+---
 
 -How to Use the App
 1.	Launch the app.
@@ -107,7 +117,7 @@ o	Provides a Review button to go through answers.
 6.	View your score and feedback.
 7.	Optionally, press Review to see detailed feedback for each question.
    
-///
+---
 
 -Quiz Logic
 
@@ -169,7 +179,7 @@ Each time the user selects an answer and clicks Submit:
 
 
 
-///
+---
 
 -Why We Use Logs
 1.	Logs (e.g., Log.d("userName", userName.toString())) are used to:
@@ -180,7 +190,7 @@ Each time the user selects an answer and clicks Submit:
 Logs are not shown to the user but are extremely useful in the Logcat console of Android Studio for developers.
 
 
-///
+---
 
 -GitHub and Version Control
 GitHub is used for:
@@ -189,7 +199,7 @@ GitHub is used for:
 3.	Tracking changes using commits
 4.	Managing issues and improvement suggestions
 
-///
+---
 
 -Why commit and push?
 1.	Saves your work safely online
@@ -197,7 +207,7 @@ GitHub is used for:
 3.	Makes collaboration easier
 4.	Helps in testing different versions
 
-///
+---
 
 -Potential Improvements
 1.	Add more question categories (e.g., Science, Geography)
