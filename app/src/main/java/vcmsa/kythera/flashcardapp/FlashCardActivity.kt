@@ -25,7 +25,7 @@ class FlashCardActivity : AppCompatActivity() {
             insets
         }//End of setContentView
 
-        //Linking the elements
+        //Linking the elements to the layout
         val question = findViewById<TextView>(R.id.tvQuestion)
         val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
         val rbtnTrue = findViewById<RadioButton>(R.id.rbtnTrue)
@@ -75,7 +75,7 @@ class FlashCardActivity : AppCompatActivity() {
         //AI was Assisted - end
 
 
-        //Button to the next question
+        //Next button to the score screen
         next.setOnClickListener {
             Log.d(next.toString(), "Next button clicked")
 
@@ -86,6 +86,7 @@ class FlashCardActivity : AppCompatActivity() {
                     val selectedRadioButton = findViewById<RadioButton>(selectedOption)
                     userAnswer[counter] = selectedRadioButton.text.toString()
 
+                    //Tells the user if their answer is correct or incorrect
                     if (userAnswer[counter] == correctAnswers[counter]) {
                         Toast.makeText(this, "Correct", Toast.LENGTH_SHORT).show()
                     } else {

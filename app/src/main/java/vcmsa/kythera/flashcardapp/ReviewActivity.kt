@@ -22,12 +22,12 @@ class ReviewActivity : AppCompatActivity() {
             insets
         }//End of setContentView
 
-        // linking the elements
+        // linking the elements to the layout
         val review = findViewById<LinearLayout>(R.id.Review)
         val exit = findViewById<Button>(R.id.btnExit)
         val restart = findViewById<Button>(R.id.btnRestart)
 
-        //  history questions
+        //  history questions that were asked
         val historyQuestions = arrayOf(
             "The Great Wall of China is visible from space with the naked eye.",
             "Albert Einstein failed maths in school",
@@ -36,7 +36,7 @@ class ReviewActivity : AppCompatActivity() {
             "Cleopatra was the last pharaoh of Egypt"
         )
 
-        //The answers to the questions
+        //The answers to the questions that were asked
         val correctAnswers = arrayOf(
             "False",
             "False",
@@ -71,6 +71,7 @@ class ReviewActivity : AppCompatActivity() {
         restart.setOnClickListener {
             Log.d(restart.toString(), "Restart button clicked")
 
+            //To restart and the user goes back to the welcome screen
             val intent = Intent(this, MainActivity::class.java) // Change to your actual main screen
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
             startActivity(intent)

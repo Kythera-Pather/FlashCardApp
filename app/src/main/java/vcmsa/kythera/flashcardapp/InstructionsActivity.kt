@@ -20,7 +20,7 @@ class InstructionsActivity : AppCompatActivity() {
             insets
         }//End of setContentView
 
-        //Linking the elements
+        //Linking the elements to the layout
         val start = findViewById<Button>(R.id.btnStart)
         val userName = intent.getStringExtra("UserName")
         //now added a Log to check the userName

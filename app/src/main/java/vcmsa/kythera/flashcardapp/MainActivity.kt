@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }//End of setContentView
 
-        //Linking the elements
+        //Linking the elements to the layout
         val userName = findViewById<EditText>(R.id.edtUserName)
         val next = findViewById<Button>(R.id.btnNext)
 

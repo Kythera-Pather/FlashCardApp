@@ -21,6 +21,7 @@ class ScoreActivity : AppCompatActivity() {
             insets
         }//End of setContentView
 
+        //Linking the elements to the layout
         val score = findViewById<TextView>(R.id.tvScore)
         val review = findViewById<Button>(R.id.btnReview)
 
