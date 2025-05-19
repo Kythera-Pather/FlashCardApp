@@ -14,11 +14,10 @@ Whether you're studying for a history test or just want to challenge your genera
 6.	Review Section: Allows users to view all questions, their responses, and the correct answers in a clean, scrollable layout.
 7.	Multi-Screen Navigation: Clean separation of UI across different screens for input, quiz, score, and review.  
 
-
+////
 
 -File & Code Structure
-
-Activities
+-Activities
 
 1.	MainActivity.kt – Handles name input and passes it forward.
 2.	InstructionsActivity.kt – Displays instructions before the quiz.
@@ -26,7 +25,7 @@ Activities
 4.	ScoreActivity.kt – Displays the score and personalized feedback.
 5.	ReviewActivity.kt – Shows a list of all questions, user answers, and correct answers.
 
-
+///
 
 -Layouts
 1.	activity_main.xml – Name input field and Next button.
@@ -36,9 +35,9 @@ Activities
 5.	activity_review.xml – ScrollView list of questions and answers.
 
 
+///
 
-
-Technologies Used
+-Technologies Used
 
 •	IDE: Android Studio
 
@@ -52,7 +51,7 @@ Technologies Used
 
 
 
-Technologies Used
+-Technologies Used
 Technology       -             	Purpose
 
 Android Studio	    -            Main development environment
@@ -74,9 +73,9 @@ ConstraintLayout, LinearLayout	-UI structuring
 Logcat (Log.d)             -    	Debugging and development tracing
 
 
+///
 
-
-Installation
+-Installation
 1.	Download the project or clone this repository.
 2.	Open the project in Android Studio. -Start Android Studio. -Select "Open an existing Android Studio project"" -Go to the directory of the cloned repository and choose either the build.gradle.kts (or build.gradle) file or the root folder of the project.
 3.	Grade of Sync: Upon opening the project, Android Studio will probably ask you to sync the Gradle files. Select "Sync Now". For this step, make sure you have a steady internet connection.
@@ -84,7 +83,9 @@ Installation
 5.	To test, connect an Android device or emulator. -Open the application: * Use an Android emulator or connect an Android device to your PC. Choose your device or emulator in Android Studio using the device dropdown in the
 
 
-How It Works:
+///
+
+-How It Works:
 1.	The question and options are displayed one at a time.
 2.	The app validates whether a selection was made.
 3.	Compares the user’s answer to the correct one.
@@ -95,8 +96,9 @@ o	Navigates to the Score screen.
 o	Displays a message like "Well done, Sam!" or "Can do better, Sam."
 o	Provides a Review button to go through answers.
 
+///
 
-How to Use the App
+-How to Use the App
 1.	Launch the app.
 2.	There is welcome screen where the user enters your username and click Next.
 3.	There is an instruction to show the users how to use the Flashcard App, then press Start.
@@ -105,8 +107,9 @@ How to Use the App
 6.	View your score and feedback.
 7.	Optionally, press Review to see detailed feedback for each question.
    
+///
 
-Quiz Logic
+-Quiz Logic
 
 The app uses parallel arrays to manage the flow of questions, user answers, and the scoring system.
 Some of the arrays user: 
@@ -166,9 +169,9 @@ Each time the user selects an answer and clicks Submit:
 
 
 
+///
 
-
-Why We Use Logs
+-Why We Use Logs
 1.	Logs (e.g., Log.d("userName", userName.toString())) are used to:
 2.	Debug application logic.
 3.	Track variable values (like username or selected answers).
@@ -177,24 +180,26 @@ Why We Use Logs
 Logs are not shown to the user but are extremely useful in the Logcat console of Android Studio for developers.
 
 
+///
 
-
-GitHub and Version Control
+-GitHub and Version Control
 GitHub is used for:
 1.	Storing the source code online
 2.	Collaborating with team members
 3.	Tracking changes using commits
 4.	Managing issues and improvement suggestions
 
+///
 
-Why commit and push?
+-Why commit and push?
 1.	Saves your work safely online
 2.	Keeps a history of every update
 3.	Makes collaboration easier
 4.	Helps in testing different versions
 
+///
 
-Potential Improvements
+-Potential Improvements
 1.	Add more question categories (e.g., Science, Geography)
 2.	Add sound effects for correct/incorrect answers
 3.	Save user scores to local database or Firebase
