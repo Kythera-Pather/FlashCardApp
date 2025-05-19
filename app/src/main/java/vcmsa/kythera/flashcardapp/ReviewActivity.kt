@@ -47,6 +47,7 @@ class ReviewActivity : AppCompatActivity() {
         Log.d("historyQuestionsDebug", historyQuestions.joinToString())
 
         //Get the user's answers from the intent
+        //AI was assisted-Start
         val userAnswer = intent.getStringArrayExtra("userAnswer")
         Log.d("userAnswerDebug", userAnswer?.joinToString() ?: "No answers received")
 
@@ -64,6 +65,7 @@ class ReviewActivity : AppCompatActivity() {
 
             review.addView(reviewText)
         }
+        //AI assisted-End
 
         //Restart button taking the user to the beginning
         restart.setOnClickListener {
@@ -79,3 +81,6 @@ class ReviewActivity : AppCompatActivity() {
         }
     }//End of OneCreate
 } //End of ReviewActivity
+
+//Referencing
+//

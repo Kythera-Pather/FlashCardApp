@@ -28,12 +28,12 @@ class MainActivity : AppCompatActivity() {
 
         //Next button to the instructions
         next.setOnClickListener {
-            //user name
+            //user name from the user
             val userName = userName.text.toString()
             // If the userName is empty
             if (userName.isNotEmpty()) {
 
-                // To next Activity
+                // To next Activity with the userName
                 val intent = Intent(this, InstructionsActivity::class.java)
                 intent.putExtra("UserName", userName)
                 //now added a Log to check the userName

@@ -67,10 +67,12 @@ class FlashCardActivity : AppCompatActivity() {
         var counter = 0
 
         //Set the first question and the answers
+        //AI was Assisted - start
         question.text = historyQuestions[counter]
         rbtnTrue.text = answerChoice[counter][0]
         rbtnFalse.text = answerChoice[counter][1]
         radioGroup.clearCheck()
+        //AI was Assisted - end
 
 
         //Button to the next question
@@ -111,6 +113,7 @@ class FlashCardActivity : AppCompatActivity() {
                         }
                     }
 
+                    //Pass the score to the ScoreActivity
                     intent.putExtra("score", score)
                     intent.putExtra("userAnswer", userAnswer)
                     intent.putExtra("UserName", userName)

@@ -31,14 +31,15 @@ class ScoreActivity : AppCompatActivity() {
         Log.d("userName", userName.toString())
 
         //Check the score and display a message saying if the user did well or can do better
-        val message = if (score.text.toString().toInt() >= 3) "well done, $userName"
+        val message = if (score.text.toString().toInt() >= 3) "well done, $userName,"
         else
-            "can do better, $userName"
+            "can do better and improve, $userName"
         score.text = "$message you scored ${score.text} out of 5"
         Log.d("score", score.text.toString())
 
 
         //Review button to see what the user got wrong or right and take them to the ReviewActivity
+        //To the next activity with the user's answers
         review.setOnClickListener {
             val userAnswer = intent.getStringArrayExtra("userAnswer")
             val intent = Intent(this, ReviewActivity::class.java)
