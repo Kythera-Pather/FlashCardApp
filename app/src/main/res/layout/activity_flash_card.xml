@@ -32,7 +32,7 @@
             android:id="@+id/tvFlashCard"
             android:layout_width="365dp"
             android:layout_height="51dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="230dp"
             android:background="#EFC487"
             android:gravity="center"
             android:text="𝔗𝔥𝔢 𝔉𝔩𝔞𝔰𝔥 ℭ𝔞𝔯𝔡 𝔔𝔲𝔦𝔷 "
@@ -59,7 +59,7 @@
             android:id="@+id/btnNext"
             android:layout_width="195dp"
             android:layout_height="52dp"
-            android:layout_marginTop="130dp"
+            android:layout_marginTop="90dp"
             android:backgroundTint="#538A85"
             android:text="ℕ𝕖𝕩𝕥"
             android:textSize="20sp"
@@ -84,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="True"
+                android:text="✩░▒▓▆▅▃▂▁𝐓𝐫𝐮𝐞▁▂▃▅▆▓▒░✩"
                 android:textSize="20sp" />
 
             <RadioButton
@@ -92,7 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="False"
+                android:text="✩░▒▓▆▅▃▂▁𝐅𝐚𝐥𝐬𝐞▁▂▃▅▆▓▒░✩"
                 android:textSize="20sp" />
         </RadioGroup>
 

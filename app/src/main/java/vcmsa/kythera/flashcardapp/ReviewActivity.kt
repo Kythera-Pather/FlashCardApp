@@ -84,6 +84,3 @@ class ReviewActivity : AppCompatActivity() {
         }
     }//End of OneCreate
 } //End of ReviewActivity
-
-//Referencing
-//
