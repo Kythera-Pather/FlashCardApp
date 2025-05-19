@@ -47,7 +47,7 @@
             android:layout_width="407dp"
             android:layout_height="73dp"
             android:layout_marginTop="70dp"
-            android:background="#63948F"
+            android:background="#7C957C"
             android:text="Question: "
             android:textSize="24sp"
             android:textStyle="bold"
@@ -72,7 +72,7 @@
             android:layout_width="408dp"
             android:layout_height="101dp"
             android:layout_marginTop="70dp"
-            android:background="#A4BCBA"
+            android:background="#5D765F"
             android:foregroundGravity="center"
             android:gravity="center"
             app:layout_constraintEnd_toEndOf="@+id/imageView2"
@@ -84,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="✩░▒▓▆▅▃▂▁𝐓𝐫𝐮𝐞▁▂▃▅▆▓▒░✩"
+                android:text="True"
                 android:textSize="20sp" />
 
             <RadioButton
@@ -92,7 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="✩░▒▓▆▅▃▂▁𝐅𝐚𝐥𝐬𝐞▁▂▃▅▆▓▒░✩"
+                android:text="False"
                 android:textSize="20sp" />
         </RadioGroup>
 
