@@ -222,60 +222,73 @@ GitHub is used for:
 
 ## Screenshot of the App and Codes
 ### Welcome Screen
-![image](https://github.com/user-attachments/assets/df65481f-c27a-4583-9761-4d16752e287e)
-![image](https://github.com/user-attachments/assets/80479234-1f16-4926-8857-1b1d860b510e)
-![image](https://github.com/user-attachments/assets/4e40ef07-160a-4a91-a772-fcfc27546b9e)
-![image](https://github.com/user-attachments/assets/86ff0b26-961b-41ea-87cb-80c9431b060c)
+![image](https://github.com/user-attachments/assets/d4cd2b90-fa39-4518-8779-d20ac4e7d2b9)
+![image](https://github.com/user-attachments/assets/3313c492-8236-4a3d-a179-a463b2c9106f)
+![image](https://github.com/user-attachments/assets/834af286-73e2-4299-8319-e7735f893e16)
+![image](https://github.com/user-attachments/assets/48976143-81ad-4d9d-9732-0ac3dc4db242)
+
 
 ### Code
-![image](https://github.com/user-attachments/assets/a3c86861-3633-4810-800b-0181cbcd6048)
-![image](https://github.com/user-attachments/assets/18127132-15ad-4df1-8703-c067f5d297d3)
+![image](https://github.com/user-attachments/assets/a0676513-9e2a-42e5-94a3-a07091403225)
+![image](https://github.com/user-attachments/assets/b2493cc4-d372-4a26-b603-4d60e276d474)
 
 ---
 ### Instructions Screen
-![image](https://github.com/user-attachments/assets/6c2a48de-c829-40d5-80ee-f82ab1e1b53d)
-![image](https://github.com/user-attachments/assets/d205646e-bfad-4d46-a92a-6d41c5f68711)
-![image](https://github.com/user-attachments/assets/f21369e4-2cb2-4964-be7d-f8fc234d3f8e)
-![image](https://github.com/user-attachments/assets/3701f80c-ec07-4ddc-bb6f-573fb6019379)
-![image](https://github.com/user-attachments/assets/911823ff-b7b5-447d-b2df-9bada7a28051)
+![image](https://github.com/user-attachments/assets/b8e077a0-8151-4b74-833e-d5f4373e1f0e)
+![image](https://github.com/user-attachments/assets/d08afb80-add9-48c8-8649-e09ccf537a68)
+![image](https://github.com/user-attachments/assets/a3eb54b5-5314-46bd-a11c-3b6bac8f204a)
+![image](https://github.com/user-attachments/assets/6364cf00-0563-416b-81fb-fea2e4c90ceb)
+
+
 
 ### Code
-![image](https://github.com/user-attachments/assets/8e413d89-53d5-4285-9254-f5fbf2e0a0aa)
+![image](https://github.com/user-attachments/assets/796c1ae1-aa5f-4b2e-a9cd-5d044d966336)
+
 
 ---
 
 ### Flash Card Quiz Screen
-![image](https://github.com/user-attachments/assets/e0369bfd-2494-430e-b601-cf56981f4919)
-![image](https://github.com/user-attachments/assets/d7b92d55-48dc-487a-8faf-7ad64c0cfde1)
-![image](https://github.com/user-attachments/assets/3d8a8d16-9f00-4524-8da5-76cdc60a6cdf)
-![image](https://github.com/user-attachments/assets/c8da62ef-62f8-4e67-8adc-9b54edc7f870)
-![image](https://github.com/user-attachments/assets/b40acdee-7fe7-4ca7-b6d3-6f3e68fdc8e9)
+![image](https://github.com/user-attachments/assets/c7e5906d-caff-41fa-b5bb-16f03c73a4cc)
+![image](https://github.com/user-attachments/assets/4541f269-e750-43ed-b1ab-de9750ffcdde)
+![image](https://github.com/user-attachments/assets/189ae026-70f4-49a3-bdcd-0106fa8d7ad2)
+![image](https://github.com/user-attachments/assets/22e2bcb5-24a4-4d4e-ac48-3fb750019d01)
+
 
 ### Code
-![image](https://github.com/user-attachments/assets/845c4818-f50c-4219-853f-e4ec8563b625)
-![image](https://github.com/user-attachments/assets/d9513a0b-1df3-42ea-ae7b-9283debb08cd)
-![image](https://github.com/user-attachments/assets/98a6283d-e428-417c-a857-24463619e16a)
-![image](https://github.com/user-attachments/assets/f4e9b0b1-dc61-4338-86d7-ba9b89319515)
+![image](https://github.com/user-attachments/assets/804ab0e7-d4d6-429c-a917-7a0ed0bd8139)
+![image](https://github.com/user-attachments/assets/353c7034-226b-4fb3-9134-abda3ac47060)
+![image](https://github.com/user-attachments/assets/d84d902f-4a37-4d9e-bdc4-394ad1627ebe)
+![image](https://github.com/user-attachments/assets/fd96a271-c6de-44f9-afe3-51b0f9b472a5)
+
 
 ---
 ### Scoring Screen
-![image](https://github.com/user-attachments/assets/54c964aa-1e5c-41db-8368-4f09e80de86c)
-![image](https://github.com/user-attachments/assets/4324f1bd-98fe-4ad4-b76b-d6485484cfaf)
-![image](https://github.com/user-attachments/assets/8998710a-8bf8-494a-a500-050c21558371)
-![image](https://github.com/user-attachments/assets/9fb44bc1-d5f1-497e-80c4-6fabbd171f5a)
+![image](https://github.com/user-attachments/assets/27231dff-564f-410e-94db-2969e43fe6f8)
+![image](https://github.com/user-attachments/assets/53f56503-3ce7-4d04-924b-8229e9c81c28)
+![image](https://github.com/user-attachments/assets/754f1a98-0d45-42d6-8cb4-46431b791029)
+![image](https://github.com/user-attachments/assets/61b38f97-4eea-416c-ae41-4cfb0c6e37b9)
+
 
 ---
 ### Code
-![image](https://github.com/user-attachments/assets/ba227ecd-8e4a-4cb0-ac0e-77ca9609c5ac)
-![image](https://github.com/user-attachments/assets/dbb25575-7da7-4784-8fd6-a5e46bbba9f3)
+![image](https://github.com/user-attachments/assets/fdfe54d3-4b71-4b0d-b7f5-c3f330d9bbb5)
+![image](https://github.com/user-attachments/assets/2c3d8270-4f01-4812-9da9-65606c6a5392)
+
 
 ---
 ### Review Screen
-![image](https://github.com/user-attachments/assets/562f2581-898d-4c64-8b86-e3eb48e62d2f)
-![image](https://github.com/user-attachments/assets/e00d960f-549e-4bf5-b915-a42057524891)
-![image](https://github.com/user-attachments/assets/34ed008b-a5fb-47f5-9fde-46a475924490)
-![image](https://github.com/user-attachments/assets/238d0260-b6f0-46c5-94ab-9005a729d8bc)
+![image](https://github.com/user-attachments/assets/c830df88-a562-48ca-a939-afd4bcea3e62)
+![image](https://github.com/user-attachments/assets/948fdfe4-2565-4ab0-930b-426c9e79b891)
+![image](https://github.com/user-attachments/assets/4b1fa742-2ee1-4705-a7f3-4613bf4c9511)
+![image](https://github.com/user-attachments/assets/4cef8a66-6ae1-4821-b148-c23837a9ecdd)
+
 
 ---
 ### Code
+![image](https://github.com/user-attachments/assets/ed260870-242a-4b8b-a971-0a42b86a68b8)
+![image](https://github.com/user-attachments/assets/b378d4c5-0107-49e6-8b8e-b4853cc79278)
+![image](https://github.com/user-attachments/assets/83c7f177-8e4a-452f-8e49-54536f55156e)
+
+## Author 
+### Kythera Pather
 
