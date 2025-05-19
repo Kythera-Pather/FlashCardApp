@@ -20,12 +20,13 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        }
-        // code end here
+        }//End of setContentView
 
+        //Linking the elements
         val userName = findViewById<EditText>(R.id.edtUserName)
         val next = findViewById<Button>(R.id.btnNext)
 
+        //Next button to the instructions
         next.setOnClickListener {
             //user name
             val userName = userName.text.toString()
@@ -43,7 +44,6 @@ class MainActivity : AppCompatActivity() {
             } else{
                 Toast.makeText(this, "Please enter your UserName in the space provided", Toast.LENGTH_SHORT).show()
             }
-
         }
-    }
-}
+    }//End of onCreate
+}//End of MainActivity

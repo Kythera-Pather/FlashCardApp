@@ -60,7 +60,7 @@
             android:layout_width="195dp"
             android:layout_height="52dp"
             android:layout_marginTop="150dp"
-            android:backgroundTint="#78393F"
+            android:backgroundTint="#538A85"
             android:text="ℕ𝕖𝕩𝕥"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"

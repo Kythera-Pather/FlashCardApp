@@ -19,16 +19,18 @@ class ScoreActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        }
+        }//End of setContentView
+
         val score = findViewById<TextView>(R.id.tvScore)
         val review = findViewById<Button>(R.id.btnReview)
 
-
+        //Get the score from the intent
         score.text = intent.getIntExtra("score", 0).toString()
         val userName = intent.getStringExtra("UserName")
         //now added a Log to check the userName
         Log.d("userName", userName.toString())
 
+        //Check the score and display a message saying if the user did well or can do better
         val message = if (score.text.toString().toInt() >= 3) "well done, $userName"
         else
             "can do better, $userName"
@@ -36,7 +38,7 @@ class ScoreActivity : AppCompatActivity() {
         Log.d("score", score.text.toString())
 
 
-
+        //Review button to see what the user got wrong or right and take them to the ReviewActivity
         review.setOnClickListener {
             val userAnswer = intent.getStringArrayExtra("userAnswer")
             val intent = Intent(this, ReviewActivity::class.java)
@@ -45,5 +47,5 @@ class ScoreActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-    }
-}
+    }//End of onCreate
+}//End of ScoreActivity

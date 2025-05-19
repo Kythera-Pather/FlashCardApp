@@ -18,13 +18,15 @@ class InstructionsActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        }
+        }//End of setContentView
 
+        //Linking the elements
         val start = findViewById<Button>(R.id.btnStart)
         val userName = intent.getStringExtra("UserName")
         //now added a Log to check the userName
         Log.d("userName", userName.toString())
 
+        //Start button to answer the history questions in the FlashCardActivity
         start.setOnClickListener {
             // To next Activity
             val intent = Intent(this, FlashCardActivity::class.java)
@@ -32,5 +34,5 @@ class InstructionsActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-    }
-}
+    }//End of onCreate
+}//End of InstructionsActivity

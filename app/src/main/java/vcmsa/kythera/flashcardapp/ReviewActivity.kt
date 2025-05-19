@@ -20,13 +20,14 @@ class ReviewActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        }
+        }//End of setContentView
+
+        // linking the elements
         val review = findViewById<LinearLayout>(R.id.Review)
         val exit = findViewById<Button>(R.id.btnExit)
         val restart = findViewById<Button>(R.id.btnRestart)
 
-
-
+        //  history questions
         val historyQuestions = arrayOf(
             "The Great Wall of China is visible from space with the naked eye.",
             "Albert Einstein failed maths in school",
@@ -35,6 +36,7 @@ class ReviewActivity : AppCompatActivity() {
             "Cleopatra was the last pharaoh of Egypt"
         )
 
+        //The answers to the questions
         val correctAnswers = arrayOf(
             "False",
             "False",
@@ -42,9 +44,13 @@ class ReviewActivity : AppCompatActivity() {
             "True",
             "True"
         )
+        Log.d("historyQuestionsDebug", historyQuestions.joinToString())
+
+        //Get the user's answers from the intent
         val userAnswer = intent.getStringArrayExtra("userAnswer")
         Log.d("userAnswerDebug", userAnswer?.joinToString() ?: "No answers received")
 
+        //Display the user's answers and the correct answers
         for (i in historyQuestions.indices) {
             val reviewText = TextView(this)
             reviewText.text = "${i + 1}. ${historyQuestions[i]}\n" +
@@ -58,6 +64,8 @@ class ReviewActivity : AppCompatActivity() {
 
             review.addView(reviewText)
         }
+
+        //Restart button taking the user to the beginning
         restart.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java) // Change to your actual main screen
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
@@ -65,11 +73,9 @@ class ReviewActivity : AppCompatActivity() {
             finish() // Close current activity
         }
 
-
+        //Exit button taking the user to exit the App
         exit.setOnClickListener {
             finish()
         }
-
-
-    }
-}
+    }//End of OneCreate
+} //End of ReviewActivity

@@ -23,8 +23,9 @@ class FlashCardActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        }
+        }//End of setContentView
 
+        //Linking the elements
         val question = findViewById<TextView>(R.id.tvQuestion)
         val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
         val rbtnTrue = findViewById<RadioButton>(R.id.rbtnTrue)
@@ -65,6 +66,7 @@ class FlashCardActivity : AppCompatActivity() {
         )
         var counter = 0
 
+        //Set the first question and the answers
         question.text = historyQuestions[counter]
         rbtnTrue.text = answerChoice[counter][0]
         rbtnFalse.text = answerChoice[counter][1]
@@ -114,12 +116,8 @@ class FlashCardActivity : AppCompatActivity() {
                     intent.putExtra("UserName", userName)
                     startActivity(intent)
                     finish()
-
-                    }
                 }
             }
-
-
-
-    }
-}
+        }
+    }//End of onCreate
+}//End of FlashCardActivity
