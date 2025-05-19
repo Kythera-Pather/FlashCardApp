@@ -1,4 +1,4 @@
-#Flash Card App
+# Flash Card App
 The Flashcard Quiz App is an interactive Android application built in Android Studio using Kotlin. It serves as an educational and self-assessment tool that allows users to test their knowledge using True/False flashcards focused on historical facts. This app provides:
 
 1 .A clean, multi-screen interface
