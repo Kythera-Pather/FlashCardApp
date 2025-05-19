@@ -234,7 +234,7 @@ GitHub is used for:
 
 ---
 ### Instructions Screen
-![image](https://github.com/user-attachments/assets/b8e077a0-8151-4b74-833e-d5f4373e1f0e)
+![image](https://github.com/user-attachments/assets/09c452dc-7154-45e6-b270-8a165e93c459)
 ![image](https://github.com/user-attachments/assets/d08afb80-add9-48c8-8649-e09ccf537a68)
 ![image](https://github.com/user-attachments/assets/a3eb54b5-5314-46bd-a11c-3b6bac8f204a)
 ![image](https://github.com/user-attachments/assets/6364cf00-0563-416b-81fb-fea2e4c90ceb)
