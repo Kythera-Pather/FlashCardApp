@@ -6,21 +6,34 @@ Whether you're studying for a history test or just want to challenge your genera
 
 Key Features
 •	Name Personalization: The app greets users by name throughout the quiz and score screen for a more engaging experience.
+
 •	Instructions Screen: Clear and concise guidance before the quiz begins.
+
 •	5 Flashcard Questions: Displays one True/False question at a time with radio button selection.
+
 •	Immediate Feedback: Toast messages inform users if their answer was correct or incorrect after each question.
+
 •	Score Calculation: Tallies total correct answers and generates a result message based on performance.
+
 •	Review Section: Allows users to view all questions, their responses, and the correct answers in a clean, scrollable layout.
+
 •	Multi-Screen Navigation: Clean separation of UI across different screens for input, quiz, score, and review.
 
 
 
+
 File & Code Structure
+
 Activities
+
 •	MainActivity.kt – Handles name input and passes it forward.
+
 •	InstructionsActivity.kt – Displays instructions before the quiz.
+
 •	FlashCardActivity.kt – Core quiz logic, question navigation, answer checking.
+
 •	ScoreActivity.kt – Displays the score and personalized feedback.
+
 •	ReviewActivity.kt – Shows a list of all questions, user answers, and correct answers.
 
 
@@ -51,6 +64,8 @@ Technologies Used
 
 •	Architecture: Multiple Activity-based navigation (MainActivity, InstructionsActivity, FlashCardActivity, ScoreActivity, ReviewActivity)
 
+
+
 Technologies Used
 Technology       -             	Purpose
 
@@ -78,13 +93,9 @@ Logcat (Log.d)             -    	Debugging and development tracing
 Installation
 
 1.Download the project or clone this repository.
-
 2.Open the project in Android Studio. -Start Android Studio. -Select "Open an existing Android Studio project"" -Go to the directory of the cloned repository and choose either the build.gradle.kts (or build.gradle) file or the root folder of the project.
-
 3.Grade of Sync: Upon opening the project, Android Studio will probably ask you to sync the Gradle files. Select "Sync Now". For this step, make sure you have a steady internet connection.
-
 4.To build and install the application, click Run Button.Open the Android Studio menu and select "Build -> Make Project"
-
 5.To test, connect an Android device or emulator. -Open the application: * Use an Android emulator or connect an Android device to your PC. Choose your device or emulator in Android Studio using the device dropdown in the
 
 
