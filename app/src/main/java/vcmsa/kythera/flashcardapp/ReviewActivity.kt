@@ -69,6 +69,8 @@ class ReviewActivity : AppCompatActivity() {
 
         //Restart button taking the user to the beginning
         restart.setOnClickListener {
+            Log.d(restart.toString(), "Restart button clicked")
+
             val intent = Intent(this, MainActivity::class.java) // Change to your actual main screen
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
             startActivity(intent)

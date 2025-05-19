@@ -77,6 +77,8 @@ class FlashCardActivity : AppCompatActivity() {
 
         //Button to the next question
         next.setOnClickListener {
+            Log.d(next.toString(), "Next button clicked")
+
             if ( counter < 5) {
                 var selectedOption = radioGroup.checkedRadioButtonId
 

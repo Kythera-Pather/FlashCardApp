@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
 
         //Next button to the instructions
         next.setOnClickListener {
+            Log.d(next.toString(), "Next button clicked")
+
             //user name from the user
             val userName = userName.text.toString()
             // If the userName is empty

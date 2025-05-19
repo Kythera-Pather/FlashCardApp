@@ -41,6 +41,9 @@ class ScoreActivity : AppCompatActivity() {
         //Review button to see what the user got wrong or right and take them to the ReviewActivity
         //To the next activity with the user's answers
         review.setOnClickListener {
+            Log.d(review.toString(), "Review button clicked")
+
+            //Get the user's answers from the intent
             val userAnswer = intent.getStringArrayExtra("userAnswer")
             val intent = Intent(this, ReviewActivity::class.java)
             intent.putExtra("UserName", userName)

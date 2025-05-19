@@ -28,6 +28,8 @@ class InstructionsActivity : AppCompatActivity() {
 
         //Start button to answer the history questions in the FlashCardActivity
         start.setOnClickListener {
+            Log.d(start.toString(), "Start button clicked")
+
             // To next Activity with the userName
             val intent = Intent(this, FlashCardActivity::class.java)
             intent.putExtra("UserName", userName)
