@@ -5,6 +5,7 @@ Whether you're studying for a history test or just want to challenge your genera
 
 
 Key Features
+
 •	Name Personalization: The app greets users by name throughout the quiz and score screen for a more engaging experience.
 
 •	Instructions Screen: Clear and concise guidance before the quiz begins.
@@ -20,8 +21,6 @@ Key Features
 •	Multi-Screen Navigation: Clean separation of UI across different screens for input, quiz, score, and review.
 
 
-
-
 File & Code Structure
 
 Activities
@@ -34,10 +33,7 @@ Activities
 
 •	ScoreActivity.kt – Displays the score and personalized feedback.
 
-•	ReviewActivity.kt – Shows a list of all questions, user answers, and correct answers.
-
-
-
+•	ReviewActivity.kt – Shows a list of all questions, user answers, and correct answers.    
 
 
 Layouts
