@@ -30,7 +30,7 @@
 
         <TextView
             android:id="@+id/tvFlashCard"
-            android:layout_width="387dp"
+            android:layout_width="407dp"
             android:layout_height="53dp"
             android:layout_marginTop="100dp"
             android:background="#EFC487"
@@ -73,6 +73,7 @@
             android:layout_width="195dp"
             android:layout_height="52dp"
             android:layout_marginTop="150dp"
+            android:backgroundTint="#548A85"
             android:text="ℕ𝕖𝕩𝕥"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
