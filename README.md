@@ -4,7 +4,7 @@ The Flashcard Quiz App is an interactive Android application built in Android St
 Whether you're studying for a history test or just want to challenge your general knowledge, this app provides a fun and educational experience and helps the user learn more about history while testing them on their knowledge.
 
 
-1 .A clean, multi-screen interface
+1. A clean, multi-screen interface
 
 2. Personalized user interaction
 
