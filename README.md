@@ -300,6 +300,11 @@ This ensures your code is always working and up-to-date, helping catch errors ea
 ---
 ### Review Screen
 ![image](https://github.com/user-attachments/assets/c830df88-a562-48ca-a939-afd4bcea3e62)
+
+# how it looks when runned on BlueStacks
+![image](https://github.com/user-attachments/assets/a19fea06-0be9-4b72-9705-c1347d31b366)
+
+
 ![image](https://github.com/user-attachments/assets/948fdfe4-2565-4ab0-930b-426c9e79b891)
 ![image](https://github.com/user-attachments/assets/4b1fa742-2ee1-4705-a7f3-4613bf4c9511)
 ![image](https://github.com/user-attachments/assets/4cef8a66-6ae1-4821-b148-c23837a9ecdd)
