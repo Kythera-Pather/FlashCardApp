@@ -1,10 +1,10 @@
 # Flash Card App
-The Flashcard Quiz App is an interactive Android application built in Android Studio using Kotlin. This app is designed as a learning and self-assessment tool that helps users test their knowledge through True/False flashcards on historical facts. The quiz is user-friendly, personalized, and includes features such as a score tracker, feedback system, and a review screen that allows users to reflect on their performance.
+The Flashcard Quiz App is an interactive Android application built in Android Studio using Kotlin. This app is designed as a learning and self-assessment tool that helps users test their knowledge through True/False flashcards on historical facts and to test how must they know and learn from their mistakes . The quiz is user-friendly, personalized, and includes features such as a welcome page, score tracker, feedback system, instructions on how to use the App and a review screen that allows users to reflect on their performance.
 
 Whether you're studying for a history test or just want to challenge your general knowledge, this app provides a fun and educational experience and helps the user learn more about history while testing them on their knowledge.
 
 
-1 .A clean, multi-screen interface
+1. A clean, multi-screen interface
 
 2. Personalized user interaction
 
@@ -121,6 +121,16 @@ o	Provides a Review button to go through answers.
 7.	Optionally, press Review to see detailed feedback for each question.
    
 ---
+## Questions and Answers
+1. The Great Wall of China is visible from space with the naked eye- False
+
+2.  Albert Einstein failed maths in school-False
+
+3. The dinosaurs died from a flood-False
+    
+4. World war 1 started in 1914-True
+    
+5. Cleopatra was the last pharaoh of Egypt-True
 
 ## Quiz Logic
 
@@ -174,7 +184,7 @@ val correctAnswers = arrayOf(
 
 val userAnswer = arrayOfNulls<String>(5)
 
-Each time the user selects an answer and clicks Submit:
+### Each time the user selects an answer and clicks Submit:
 1.	The answer is stored.
 2.	It is compared to the correct answer.
 3.	A Toast message displays whether it was right or wrong.
@@ -184,7 +194,7 @@ Each time the user selects an answer and clicks Submit:
 
 ---
 
-#3 Why We Use Logs
+## Why We Use Logs
 1.	Logs (e.g., Log.d("userName", userName.toString())) are used to:
 2.	Debug application logic.
 3.	Track variable values (like username or selected answers).
@@ -197,11 +207,23 @@ Logs are not shown to the user but are extremely useful in the Logcat console of
 
 ## GitHub and Version Control
 GitHub is used for:
+
+GitHub is an online platform used to store, manage, and collaborate on code projects using version control (Git). It helps keep track of changes to code over time and allows multiple people to work on the same project without losing progress.
+
+
 1.	Storing the source code online
 2.	Collaborating with team members
 3.	Tracking changes using commits
 4.	Managing issues and improvement suggestions
 
+## GitHub Actions (CI/CD)
+GitHub Actions is a tool built into GitHub that allows you to automate tasks like building, testing, or deploying your app every time you push code to your repository.
+
+In this project:
+
+GitHub Actions automatically builds your Android app using Gradle every time you push updates to the master branch.
+
+This ensures your code is always working and up-to-date, helping catch errors early.
 
 ### Why commit and push?
 1.	Saves your work safely online
@@ -234,7 +256,7 @@ GitHub is used for:
 
 ---
 ### Instructions Screen
-![image](https://github.com/user-attachments/assets/4640f3f7-b04a-48c8-9fec-c5bfd8e881e2)
+![image](https://github.com/user-attachments/assets/730c0291-c4d0-4e0c-8c9e-4d37255751d6)
 ![image](https://github.com/user-attachments/assets/d08afb80-add9-48c8-8649-e09ccf537a68)
 ![image](https://github.com/user-attachments/assets/a3eb54b5-5314-46bd-a11c-3b6bac8f204a)
 ![image](https://github.com/user-attachments/assets/6364cf00-0563-416b-81fb-fea2e4c90ceb)
@@ -288,6 +310,21 @@ GitHub is used for:
 ![image](https://github.com/user-attachments/assets/ed260870-242a-4b8b-a971-0a42b86a68b8)
 ![image](https://github.com/user-attachments/assets/b378d4c5-0107-49e6-8b8e-b4853cc79278)
 ![image](https://github.com/user-attachments/assets/83c7f177-8e4a-452f-8e49-54536f55156e)
+
+
+## Project Report 
+
+The Flashcard Quiz App is an educational Android application designed to help learners test and reinforce their knowledge of history in a simple, engaging, and interactive way. Built using Kotlin in Android Studio, the app presents a series of five multiple-choice history questions in a flashcard format, which are easy to navigate and make learning feel less like a test and more like a game. This user-friendly interface ensures that learners of all ages and skill levels can participate without difficulty. Upon launching the app, users are greeted with a welcome screen and prompted to enter their name, personalizing their experience and making the app feel more tailored to the individual. They are then guided to an instruction screen that explains how the app works—detailing the quiz format, how to select answers, and what to expect during the activity.
+
+The quiz challenges learners’ ability to recall historical facts, promotes critical thinking, and strengthens memory retention. Each time a learner selects an answer, the app provides instant feedback using toast messages, clearly indicating whether the response was correct or incorrect. This immediate response system helps learners learn from mistakes in real time. Once all five questions have been answered, a score screen appears, offering customized motivational feedback such as “Well done” for high scores or “You can do better and improve” for lower ones. In addition, a review screen presents all the questions, the user's answers, and the correct answers in a neat layout, allowing learners to reflect, revise, and improve. There is even a Restart button where the user can redo the Quiz again and an Exit button to leave the App. 
+
+The project also incorporates GitHub for version control and collaboration. All development progress is tracked and stored in a GitHub repository, allowing for organized code management and easy updates. Additionally, the app uses GitHub Actions for continuous integration (CI). With an automated workflow set up in the GitHub repository, every code push or pull request triggers a build process that compiles the app and checks for errors. This ensures the code remains functional and reduces the risk of broken builds. Overall, the combination of thoughtful design and DevOps practices makes the Flashcard Quiz App both educationally effective and technically sound
+
+The app’s educational benefits are enhanced by its intuitive design, responsive layout, and smooth transitions across different screens. It motivates learners not only through feedback and encouragement but also by giving them control over their own pace of learning, which fosters independence and confidence. Features like name-based feedback, a clean interface, helpful instructions, and a built-in review mechanism make the app a powerful tool for informal assessment and study. Overall, the Flashcard Quiz App bridges technology and education to create a fun, supportive learning environment that encourages progress, builds self-belief, and keeps users engaged from start to finish.
+
+## Youtube link
+
+
 
 ## Author 
 ### Kythera Pather
