@@ -184,7 +184,7 @@ val correctAnswers = arrayOf(
 
 val userAnswer = arrayOfNulls<String>(5)
 
-Each time the user selects an answer and clicks Submit:
+### Each time the user selects an answer and clicks Submit:
 1.	The answer is stored.
 2.	It is compared to the correct answer.
 3.	A Toast message displays whether it was right or wrong.
@@ -194,7 +194,7 @@ Each time the user selects an answer and clicks Submit:
 
 ---
 
-#3 Why We Use Logs
+## Why We Use Logs
 1.	Logs (e.g., Log.d("userName", userName.toString())) are used to:
 2.	Debug application logic.
 3.	Track variable values (like username or selected answers).
