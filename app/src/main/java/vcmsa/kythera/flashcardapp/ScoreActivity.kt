@@ -32,11 +32,13 @@ class ScoreActivity : AppCompatActivity() {
         Log.d("userName", userName.toString())
 
         //Check the score and display a message saying if the user did well or can do better
+        //AI was assisted - start
         val message = if (score.text.toString().toInt() >= 3) "well done, $userName,"
         else
             "can do better and improve, $userName"
         score.text = "$message you scored ${score.text} out of 5"
         Log.d("score", score.text.toString())
+        //AI was assisted - end
 
 
         //Review button to see what the user got wrong or right and take them to the ReviewActivity
