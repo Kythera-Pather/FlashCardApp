@@ -256,7 +256,7 @@ This ensures your code is always working and up-to-date, helping catch errors ea
 
 ---
 ### Instructions Screen
-![image](https://github.com/user-attachments/assets/4640f3f7-b04a-48c8-9fec-c5bfd8e881e2)
+![image](https://github.com/user-attachments/assets/730c0291-c4d0-4e0c-8c9e-4d37255751d6)
 ![image](https://github.com/user-attachments/assets/d08afb80-add9-48c8-8649-e09ccf537a68)
 ![image](https://github.com/user-attachments/assets/a3eb54b5-5314-46bd-a11c-3b6bac8f204a)
 ![image](https://github.com/user-attachments/assets/6364cf00-0563-416b-81fb-fea2e4c90ceb)
