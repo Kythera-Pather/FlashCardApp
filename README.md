@@ -121,6 +121,16 @@ o	Provides a Review button to go through answers.
 7.	Optionally, press Review to see detailed feedback for each question.
    
 ---
+## Questions and Answers
+1. The Great Wall of China is visible from space with the naked eye- False
+
+2.  Albert Einstein failed maths in school-False
+
+3. The dinosaurs died from a flood-False
+    
+4. World war 1 started in 1914-True
+    
+5. Cleopatra was the last pharaoh of Egypt-True
 
 ## Quiz Logic
 
@@ -300,6 +310,13 @@ This ensures your code is always working and up-to-date, helping catch errors ea
 ![image](https://github.com/user-attachments/assets/ed260870-242a-4b8b-a971-0a42b86a68b8)
 ![image](https://github.com/user-attachments/assets/b378d4c5-0107-49e6-8b8e-b4853cc79278)
 ![image](https://github.com/user-attachments/assets/83c7f177-8e4a-452f-8e49-54536f55156e)
+
+
+## Project Report 
+
+The Flashcard Quiz App is an educational Android application designed to help learners test and reinforce their knowledge of history in a simple and engaging way. Built using Kotlin in Android Studio, the app presents a series of true-or-false flashcard questions and 5 Histroy Questions are asked that are easy to navigate, making it user-friendly for learners of all ages. Upon launching the app, users are welcomed and asked to enter their name, which personalizes the experience. They are then guided through an instruction screen before beginning the quiz, where it tells the user how the App words. The app tests learners’ ability to recall historical facts, encouraging critical thinking and memory retention. As learners answer each question, they receive instant feedback via toast messages, letting them know if their answer is correct or incorrect. At the end of the quiz, a score screen provides personalized feedback telling the user "well done" or "can do better and improve" based on performance and includes a review section where users can see all the questions, their answers, and the correct ones. This not only helps them reflect on their mistakes but also motivates them to improve. The app promotes self-paced learning and boosts confidence through immediate, constructive responses. Additional features like the clean layout, multiple screens, and smooth transitions make the app feel polished and enjoyable to use, while its simplicity ensures accessibility for all users. Overall, the Flashcard Quiz App is an effective tool for interactive learning, combining education and technology to support learners in a fun and motivational way.
+
+## Youtube link
 
 ## Author 
 ### Kythera Pather
