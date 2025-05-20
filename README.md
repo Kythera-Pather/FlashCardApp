@@ -322,7 +322,6 @@ The project also incorporates GitHub for version control and collaboration. All 
 
 The app’s educational benefits are enhanced by its intuitive design, responsive layout, and smooth transitions across different screens. It motivates learners not only through feedback and encouragement but also by giving them control over their own pace of learning, which fosters independence and confidence. Features like name-based feedback, a clean interface, helpful instructions, and a built-in review mechanism make the app a powerful tool for informal assessment and study. Overall, the Flashcard Quiz App bridges technology and education to create a fun, supportive learning environment that encourages progress, builds self-belief, and keeps users engaged from start to finish.
 
-
 ## Youtube link
 
 
