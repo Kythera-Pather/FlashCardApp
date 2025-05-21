@@ -80,7 +80,7 @@ class ReviewActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java) // Change to your actual main screen
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
             startActivity(intent)
-            finish() // Close current activity
+            finish()
         }
 
         //Exit button taking the user to exit the App
