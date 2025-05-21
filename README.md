@@ -1,5 +1,5 @@
 # Flash Card App
-The Flashcard Quiz App is an interactive Android application built in Android Studio using Kotlin. This app is designed as a learning and self-assessment tool that helps users test their knowledge through True/False flashcards on historical facts and to test how must they know and learn from their mistakes . The quiz is user-friendly, personalized, and includes features such as a welcome page, score tracker, feedback system, instructions on how to use the App and a review screen that allows users to reflect on their performance.
+The Flashcard Quiz App is an interactive Android application built in Android Studio using Kotlin. This app is designed as a learning and self-assessment tool that helps users test their knowledge through True/False flashcards on historical facts and to test how must they know and learn from their mistakes . The quiz is user-friendly, personalized, and includes features such as a welcome page, instructions on how to use the App, Quiz screen, score tracker, feedback system, and a review screen that allows users to reflect on their performance.
 
 Whether you're studying for a history test or just want to challenge your general knowledge, this app provides a fun and educational experience and helps the user learn more about history while testing them on their knowledge.
 
@@ -8,9 +8,9 @@ Whether you're studying for a history test or just want to challenge your genera
 
 2. Personalized user interaction
 
-3. Instant feedback and score tracking
+3. Instant feedback (Ethier congratulating or motivating the use to do better) and score tracking 
 
-4. A review feature for reflection and learning
+4. A review feature (Showing the users answers compared to the correct one) for reflection and learning
 
 Whether you're preparing for a test or simply love trivia, this app makes learning fun and effective.
 
@@ -21,7 +21,7 @@ Whether you're preparing for a test or simply love trivia, this app makes learni
 
 1.	Name Personalization: The app greets users by name throughout the quiz and score screen for a more engaging experience.
 2.	Instructions Screen: Clear and concise guidance before the quiz begins.
-3.	5 Flashcard Questions: Displays one True/False question at a time with radio button selection.
+3.	5 Flashcard History Questions: Displays one True/False question at a time with radio button selection.
 4.	Immediate Feedback: Toast messages inform users if their answer was correct or incorrect after each question.
 5.	Score Calculation: Tallies total correct answers and generates a result message based on performance.
 6.	Review Section: Allows users to view all questions, their responses, and the correct answers in a clean, scrollable layout.
@@ -43,9 +43,9 @@ Whether you're preparing for a test or simply love trivia, this app makes learni
 ## Layouts
 1.	activity_main.xml – Name input field and Next button.
 2.	activity_instructions.xml – Simple instruction text and Start button.
-3.	activity_flash_card.xml – Quiz question, True/False radio buttons, Submit button.
+3.	activity_flash_card.xml – Quiz question, True/False radio buttons, Next button.
 4.	activity_score.xml – Score, feedback, and Review button.
-5.	activity_review.xml – ScrollView list of questions and answers.
+5.	activity_review.xml – ScrollView list of questions and answers, Restart button and xit button.
 
 
 ---
@@ -56,7 +56,7 @@ Whether you're preparing for a test or simply love trivia, this app makes learni
 
 •	Language: Kotlin
 
-•	UI Components: TextView, EditText, Button, RadioGroup, RadioButton, LinearLayout, Toast, Intent
+•	UI Components: TextView, EditText, Button, RadioGroup, RadioButton, LinearLayout, Toast, Intent, Imagie
 
 •	Layouts: XML using ConstraintLayout and LinearLayout
 
@@ -104,11 +104,13 @@ Logcat (Log.d)             -    	Debugging and development tracing
 3.	Compares the user’s answer to the correct one.
 4.	Displays a toast: "Correct" or "Incorrect".
 5.	After all 5 questions, the app:
-o	Calculates the score.
-o	Navigates to the Score screen.
-o	Displays a message like "Well done, Sam!" or "Can do better, Sam."
-o	Provides a Review button to go through answers.
-
+6.	Calculates the score.
+7.	Navigates to the Score screen.
+8.	Displays a message like "Well done, (username)Sam!" or "Can do better,(username) Sam."
+9.	Provides a Review button to go through answers.
+10. If to wish to restart he quiz press the restart button.
+11. Exit button to leave the App.
+    
 ---
 
 ## How to Use the App
@@ -117,8 +119,11 @@ o	Provides a Review button to go through answers.
 3.	There is an instruction to show the users how to use the Flashcard App, then press Start.
 4.	There is a Flashcard quiz where the question and options are displayed one at a time.
 5.	Answer each True or False question.
-6.	View your score and feedback.
-7.	Optionally, press Review to see detailed feedback for each question.
+6.	Press Next button to go to the next question until finshed will take you to the scoring screen.
+7.	View your score and feedback.
+8.	Press Review to see detailed feedback for each question.
+9.	If to wish to restart he quiz press the restart button.
+10.  To leave the App, press the Exit button.
    
 ---
 ## Questions and Answers
@@ -187,7 +192,7 @@ val userAnswer = arrayOfNulls<String>(5)
 ### Each time the user selects an answer and clicks Submit:
 1.	The answer is stored.
 2.	It is compared to the correct answer.
-3.	A Toast message displays whether it was right or wrong.
+3.	A Toast message displays whether it was correct or incorrect right or wrong.
 4.	After the last question, the app calculates the final score and navigates to ScoreActivity.
 
 
@@ -197,10 +202,10 @@ val userAnswer = arrayOfNulls<String>(5)
 ## Why We Use Logs
 1.	Logs (e.g., Log.d("userName", userName.toString())) are used to:
 2.	Debug application logic.
-3.	Track variable values (like username or selected answers).
+3.	Track variable values (like username. Buttons or selected answers).
 4.	Identify issues during development.
    
-Logs are not shown to the user but are extremely useful in the Logcat console of Android Studio for developers.
+Logs are not shown to the user but are extremely useful in the Logcat console of Android Studio for developers. Makes the code easy.
 
 
 ---
@@ -216,7 +221,7 @@ GitHub is an online platform used to store, manage, and collaborate on code proj
 3.	Tracking changes using commits
 4.	Managing issues and improvement suggestions
 
-## GitHub Actions (CI/CD)
+## GitHub Actions
 GitHub Actions is a tool built into GitHub that allows you to automate tasks like building, testing, or deploying your app every time you push code to your repository.
 
 In this project:
@@ -234,11 +239,11 @@ This ensures your code is always working and up-to-date, helping catch errors ea
 ---
 
 ## Potential Improvements
-1.	Add more question categories (e.g., Science, Geography)
+1.	Add more question categories to add(e.g., Science, Geography)
 2.	Add sound effects for correct/incorrect answers
-3.	Save user scores to local database or Firebase
-4.	Include dark mode support
-5.	Add screenshots for better documentation
+3.	Include dark mode support
+4. Add more questions.
+5. Add more features.
 
 ---
 
@@ -319,11 +324,11 @@ This ensures your code is always working and up-to-date, helping catch errors ea
 
 ## Project Report 
 
-The Flashcard Quiz App is an educational Android application designed to help learners test and reinforce their knowledge of history in a simple, engaging, and interactive way. Built using Kotlin in Android Studio, the app presents a series of five multiple-choice history questions in a flashcard format, which are easy to navigate and make learning feel less like a test and more like a game. This user-friendly interface ensures that learners of all ages and skill levels can participate without difficulty. Upon launching the app, users are greeted with a welcome screen and prompted to enter their name, personalizing their experience and making the app feel more tailored to the individual. They are then guided to an instruction screen that explains how the app works—detailing the quiz format, how to select answers, and what to expect during the activity.
+The Flashcard Quiz App is an educational Android application designed to help learners test and reinforce their knowledge of history in a simple, easy, engaging, and interactive way. Built using Kotlin in Android Studio, the app presents a series of five multiple-choice history questions in a flashcard format, which are easy to navigate and make learning feel less like a test and more like a game. This user-friendly interface ensures that learners of all ages and skill levels can participate without difficulty. Upon launching the app, users are greeted with a welcome screen and prompted to enter their name, personalizing their experience and making the app feel more tailored to the individual. They are then guided to an instruction screen that explains how the app works—detailing the quiz format, how to select answers, and what to expect during the activity.
 
-The quiz challenges learners’ ability to recall historical facts, promotes critical thinking, and strengthens memory retention. Each time a learner selects an answer, the app provides instant feedback using toast messages, clearly indicating whether the response was correct or incorrect. This immediate response system helps learners learn from mistakes in real time. Once all five questions have been answered, a score screen appears, offering customized motivational feedback such as “Well done” for high scores or “You can do better and improve” for lower ones. In addition, a review screen presents all the questions, the user's answers, and the correct answers in a neat layout, allowing learners to reflect, revise, and improve. There is even a Restart button where the user can redo the Quiz again and an Exit button to leave the App. 
+The quiz challenges learners’ ability to recall historical facts, promotes critical thinking, and strengthens memory retention. Each time a learner selects either true or false, the app provides instant feedback using toast messages, clearly indicating whether the response was correct or incorrect. This immediate response system helps learners learn from mistakes in real time. Once all five questions have been answered, a score screen appears, offering customized motivational feedback such as “Well done” for high scores congratulating the user or “You can do better and improve” for lower ones, motivating the user to do better. In addition, a review screen presents all the questions, the user's answers, and the correct answers in a neat layout, allowing learners to reflect, revise, and improve. There is even a Restart button where the user can redo the Quiz again and an Exit button to leave the App once the user is done. 
 
-The project also incorporates GitHub for version control and collaboration. All development progress is tracked and stored in a GitHub repository, allowing for organized code management and easy updates. Additionally, the app uses GitHub Actions for continuous integration (CI). With an automated workflow set up in the GitHub repository, every code push or pull request triggers a build process that compiles the app and checks for errors. This ensures the code remains functional and reduces the risk of broken builds. Overall, the combination of thoughtful design and DevOps practices makes the Flashcard Quiz App both educationally effective and technically sound
+The project also incorporates GitHub for version control and collaboration. All development progress is tracked and stored in a GitHub repository, allowing for organized code management and easy updates. Additionally, the app uses GitHub Actions for continuous integration. With an automated workflow set up in the GitHub repository, every code push or pull request triggers a build process that compiles the app and checks for errors. This ensures the code remains functional and reduces the risk of broken builds. Overall, the combination of thoughtful design and DevOps practices makes the Flashcard Quiz App both educationally effective and technically sound
 
 The app’s educational benefits are enhanced by its intuitive design, responsive layout, and smooth transitions across different screens. It motivates learners not only through feedback and encouragement but also by giving them control over their own pace of learning, which fosters independence and confidence. Features like name-based feedback, a clean interface, helpful instructions, and a built-in review mechanism make the app a powerful tool for informal assessment and study. Overall, the Flashcard Quiz App bridges technology and education to create a fun, supportive learning environment that encourages progress, builds self-belief, and keeps users engaged from start to finish.
 
