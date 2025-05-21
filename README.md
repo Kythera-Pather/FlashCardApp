@@ -281,7 +281,7 @@ This ensures your code is always working and up-to-date, helping catch errors ea
 
 ### Flash Card Quiz Screen
 ![image](https://github.com/user-attachments/assets/c7e5906d-caff-41fa-b5bb-16f03c73a4cc)
-![image](https://github.com/user-attachments/assets/851f3118-d226-43b9-992a-39c47e901427)
+![image](https://github.com/user-attachments/assets/43e756d6-a8c5-4d45-868a-89fbba3bfe67)
 ![image](https://github.com/user-attachments/assets/189ae026-70f4-49a3-bdcd-0106fa8d7ad2)
 ![image](https://github.com/user-attachments/assets/22e2bcb5-24a4-4d4e-ac48-3fb750019d01)
 
