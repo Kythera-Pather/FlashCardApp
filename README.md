@@ -281,7 +281,7 @@ This ensures your code is always working and up-to-date, helping catch errors ea
 
 ### Flash Card Quiz Screen
 ![image](https://github.com/user-attachments/assets/c7e5906d-caff-41fa-b5bb-16f03c73a4cc)
-![image](https://github.com/user-attachments/assets/4541f269-e750-43ed-b1ab-de9750ffcdde)
+![image](https://github.com/user-attachments/assets/851f3118-d226-43b9-992a-39c47e901427)
 ![image](https://github.com/user-attachments/assets/189ae026-70f4-49a3-bdcd-0106fa8d7ad2)
 ![image](https://github.com/user-attachments/assets/22e2bcb5-24a4-4d4e-ac48-3fb750019d01)
 
@@ -316,14 +316,15 @@ This ensures your code is always working and up-to-date, helping catch errors ea
 
 
 ![image](https://github.com/user-attachments/assets/948fdfe4-2565-4ab0-930b-426c9e79b891)
+![image](https://github.com/user-attachments/assets/ed260870-242a-4b8b-a971-0a42b86a68b8)
 ![image](https://github.com/user-attachments/assets/4b1fa742-2ee1-4705-a7f3-4613bf4c9511)
-![image](https://github.com/user-attachments/assets/4cef8a66-6ae1-4821-b148-c23837a9ecdd)
+
 
 
 ---
 ### Code
-![image](https://github.com/user-attachments/assets/ed260870-242a-4b8b-a971-0a42b86a68b8)
-![image](https://github.com/user-attachments/assets/b378d4c5-0107-49e6-8b8e-b4853cc79278)
+![image](https://github.com/user-attachments/assets/663b590c-0edc-4c7a-b732-016d0a3db103)
+![image](https://github.com/user-attachments/assets/ebd09299-a9fb-4f82-909f-f01cc5f574cd)
 ![image](https://github.com/user-attachments/assets/83c7f177-8e4a-452f-8e49-54536f55156e)
 
 
