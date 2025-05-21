@@ -295,10 +295,11 @@ This ensures your code is always working and up-to-date, helping catch errors ea
 
 ---
 ### Scoring Screen
+![image](https://github.com/user-attachments/assets/61b38f97-4eea-416c-ae41-4cfb0c6e37b9)
 ![image](https://github.com/user-attachments/assets/27231dff-564f-410e-94db-2969e43fe6f8)
 ![image](https://github.com/user-attachments/assets/53f56503-3ce7-4d04-924b-8229e9c81c28)
 ![image](https://github.com/user-attachments/assets/754f1a98-0d45-42d6-8cb4-46431b791029)
-![image](https://github.com/user-attachments/assets/61b38f97-4eea-416c-ae41-4cfb0c6e37b9)
+
 
 
 ---
