@@ -331,7 +331,7 @@ This ensures your code is always working and up-to-date, helping catch errors ea
 # Project Report 
 
 ## Problem: The Need for an Engaging, User-Friendly Learning Tool For a History Learning App
-Traditional methods of learning history—such as reading or note-taking—are typically boring, Information-overloaded, or discouraging, especially for younger learners or those with bad memory. A majority of study apps are too complex, noninteractive, or do not provide real-time feedback, and the learners end up wondering if they are improving. The learners also need tools that not only check their knowledge but also enable them to think and learn more effectively in the moment. There is also no encouragement and personalization in the majority of existing quiz apps, which may cause reduced interaction and retention. Without simple navigation and considerable motivation, learners are easily bored or intimidated by standard tests.
+Traditional methods of learning history—such as reading or note-taking—are typically boring, Information-overloaded, or discouraging, especially for younger learners, learners who find it hard to learn or those with bad memory. A majority of study apps are too complex, noninteractive, or do not provide real-time feedback, and the learners end up wondering if they are improving. The learners also need tools that not only check their knowledge but also enable them to think and learn more effectively in the moment. There is also no encouragement and personalization in the majority of existing quiz apps, which may cause reduced interaction and retention. Without simple navigation and considerable motivation, learners are easily bored or intimidated by standard tests.
 
 ## Solutions: Flash Card Quiz App
 The Flashcard Quiz App is an educational Android application designed to help learners test and reinforce their knowledge of history in a simple, easy, engaging, and interactive way. Built using Kotlin in Android Studio, the app presents a series of five multiple-choice history questions in a flashcard format, which are easy to navigate and make learning feel less like a test and more like a game. This user-friendly interface ensures that learners of all ages and skill levels can participate without difficulty. Upon launching the app, users are greeted with a welcome screen and prompted to enter their name, personalizing their experience and making the app feel more tailored to the individual. They are then guided to an instruction screen that explains how the app works—detailing the quiz format, how to select answers, and what to expect during the activity.
@@ -347,7 +347,7 @@ The application also has a review page, where the users see their answers and th
 Educational benefits of the app are augmented by its simplicity, adaptive screen layout, and smooth navigation across different screens. It motivates learners both positively and also through feedback and by giving them control over learning speed, enhancing independence and confidence in themselves. Name-based feedback, simplicity of use with a minimalistic layout, didactic instructions, and an in-built review system are some of the unique features of the app that enable it to serve as an effective informal assessment and learning tool. Overall, the Flashcard Quiz App bridges the technology-learn divide to create an engaging, motivational learning system that encourages progress, builds self-esteem, and keeps users active throughout.
 
 ## Youtube link
-https://youtu.be/nfbHgHn8gwU 
+https://youtu.be/fiWpFZfDn1c 
 
 
 ## Author 
