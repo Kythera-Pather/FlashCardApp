@@ -29,16 +29,16 @@ class ReviewActivity : AppCompatActivity() {
 
         //  history questions that were asked
         val historyQuestions = arrayOf(
-            "The Great Wall of China is visible from space with the naked eye.",
-            "Albert Einstein failed maths in school",
-            "The dinosaurs died from a flood",
+            "The French Revolution started in 1789",
+            "Christopher Columbus discovered America in 1800",
+            "In 1969, Niel Armstrong was the first human to walk on the moon",
             "World war 1 started in 1914",
             "Cleopatra was the last pharaoh of Egypt"
         )
 
         //The answers to the questions that were asked
         val correctAnswers = arrayOf(
-            "False",
+            "True",
             "False",
             "False",
             "True",
@@ -54,13 +54,13 @@ class ReviewActivity : AppCompatActivity() {
 
         // used chatGPT " fix my code for me"
         // link: https://chatgpt.com/c/682d7904-2214-800d-8ce5-710188f43ff1
-        // fix this code (60% originality)
+        // fix this code (50% originality)
         //Display the user's answers and the correct answers
         for (i in historyQuestions.indices) {
             val reviewText = TextView(this)
-            reviewText.text = "${i + 1}. ${historyQuestions[i]}\n" +
+            reviewText.text = "${i + 1}.${historyQuestions[i]}\n" +
                     "Your Answer: ${userAnswer?.get(i) ?: "No Answer"}\n" +
-                    "Correct Answer: ${correctAnswers[i]}\n"
+                    "Correct Answer: ${correctAnswers[i]}"
             reviewText.setPadding(0, 16, 0, 16)
             // end of referenced code
 

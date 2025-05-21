@@ -43,6 +43,7 @@ class ScoreActivity : AppCompatActivity() {
         //end of referenced code
 
 
+
         //Review button to see what the user got wrong or right and take them to the ReviewActivity
         //To the next activity with the user's answers
         review.setOnClickListener {

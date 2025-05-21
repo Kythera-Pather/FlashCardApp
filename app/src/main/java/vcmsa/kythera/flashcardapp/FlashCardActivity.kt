@@ -39,9 +39,9 @@ class FlashCardActivity : AppCompatActivity() {
 
         // array of the questions
         val historyQuestions = arrayOf(
-            "The Great Wall of China is visible from space with the naked eye.",
-            "Albert Einstein failed maths in school",
-            "The dinosaurs died from a flood",
+            "The French Revolution started in 1789",
+            "Christopher Columbus discovered America in 1800",
+            "In 1969, Niel Armstrong was the first human to walk on the moon",
             "World war 1 started in 1914",
             "Cleopatra was the last pharaoh of Egypt"
         )
@@ -58,7 +58,7 @@ class FlashCardActivity : AppCompatActivity() {
         // array of the correct answers
         var userAnswer = arrayOfNulls<String>(5)
         val correctAnswers = arrayOf(
-            "False",
+            "True",
             "False",
             "False",
             "True",
