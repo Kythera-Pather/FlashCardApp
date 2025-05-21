@@ -46,11 +46,15 @@ class ReviewActivity : AppCompatActivity() {
         )
         Log.d("historyQuestionsDebug", historyQuestions.joinToString())
 
+
         //Get the user's answers from the intent
-        //AI was assisted-Start
         val userAnswer = intent.getStringArrayExtra("userAnswer")
         Log.d("userAnswerDebug", userAnswer?.joinToString() ?: "No answers received")
 
+
+        // used chatGPT " fix my code for me"
+        // link: https://chatgpt.com/c/682d7904-2214-800d-8ce5-710188f43ff1
+        // fix this code (60% originality)
         //Display the user's answers and the correct answers
         for (i in historyQuestions.indices) {
             val reviewText = TextView(this)
@@ -58,6 +62,7 @@ class ReviewActivity : AppCompatActivity() {
                     "Your Answer: ${userAnswer?.get(i) ?: "No Answer"}\n" +
                     "Correct Answer: ${correctAnswers[i]}\n"
             reviewText.setPadding(0, 16, 0, 16)
+            // end of referenced code
 
             reviewText.textSize = 18f
             reviewText.setTextColor(resources.getColor(android.R.color.black))
@@ -65,7 +70,7 @@ class ReviewActivity : AppCompatActivity() {
 
             review.addView(reviewText)
         }
-        //AI assisted-End
+
 
         //Restart button taking the user to the beginning
         restart.setOnClickListener {

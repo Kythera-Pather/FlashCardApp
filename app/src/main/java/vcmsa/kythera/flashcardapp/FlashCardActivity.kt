@@ -67,17 +67,16 @@ class FlashCardActivity : AppCompatActivity() {
         var counter = 0
 
         //Set the first question and the answers
-        //AI was Assisted - start
         question.text = historyQuestions[counter]
         rbtnTrue.text = answerChoice[counter][0]
         rbtnFalse.text = answerChoice[counter][1]
         radioGroup.clearCheck()
-        //AI was Assisted - end
 
 
         //Next button to the score screen
         next.setOnClickListener {
             Log.d(next.toString(), "Next button clicked")
+
 
             if ( counter < 5) {
                 var selectedOption = radioGroup.checkedRadioButtonId
@@ -99,6 +98,9 @@ class FlashCardActivity : AppCompatActivity() {
                     return@setOnClickListener
                 }
 
+                // Used a youtube for code
+                // link: https://youtu.be/K13fR2RHTak
+                // fix this code (70% originality)
                 if (counter < 5) {
                     question.text = historyQuestions[counter]
                     for (i in 0 until radioGroup.childCount) {
@@ -115,6 +117,7 @@ class FlashCardActivity : AppCompatActivity() {
                             score++
                         }
                     }
+                    //end of referenced code
 
                     //Pass the score to the ScoreActivity
                     intent.putExtra("score", score)
